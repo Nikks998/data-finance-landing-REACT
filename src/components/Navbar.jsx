@@ -14,11 +14,11 @@ export const Navbar = () => {
         <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
             <h1 className="w-full text-3xl font-bold text-secondary">REACT.</h1>
             <ul className="md:flex hidden">
-                <li className="p-4">Home</li>
-                <li className="p-4">Company</li>
-                <li className="p-4">Resources</li>
-                <li className="p-4">About</li>
-                <li className="p-4">Contact</li>
+                <li className="p-4 hover:text-secondary cursor-pointer">Home</li>
+                <li className="p-4 hover:text-secondary cursor-pointer">Company</li>
+                <li className="p-4 hover:text-secondary cursor-pointer">Resources</li>
+                <li className="p-4 hover:text-secondary cursor-pointer">About</li>
+                <li className="p-4 hover:text-secondary cursor-pointer">Contact</li>
             </ul>
             <div onClick={handleNav} className='block md:hidden'>
                 {
